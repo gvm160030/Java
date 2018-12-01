@@ -1,4 +1,4 @@
-package com.bst.java;
+package com.java.bst;
 /*
 Given inorder and postorder traversal of a tree, construct the binary tree.
 
