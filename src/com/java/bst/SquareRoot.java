@@ -1,4 +1,4 @@
-package com.bst.java;
+package com.java.bst;
 
 /*
 Implement int sqrt(int x).
