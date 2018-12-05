@@ -65,7 +65,7 @@ public class MaxDepthOfTree {
         tree.root = new TreeNode(1);
         tree.root.right = new TreeNode(2);
         tree.root.right.left = new TreeNode(3);
-        int result = tree.maxDepthIterative(root);
+        int result = tree.maxDepthRecursive(root);
         System.out.println("Max Depth of binary tree is : "+result);
     }
 }
