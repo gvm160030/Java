@@ -1,4 +1,4 @@
-package com.bst.java;
+package com.java.bst;
 
 import java.util.ArrayList;
 import java.util.List;
