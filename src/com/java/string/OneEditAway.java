@@ -1,5 +1,15 @@
 package com.java.string;
+/*
+Given two strings S and T, determine if they are both one edit distance apart.
 
+ip : Pale  -> ple | removal
+     pale -> pole | replacement
+     pple -> apple | insertion
+     dark -> duck | false since 2 letters are changed
+
+op : true for all the scenarios because the resulting strings are either one insertion of the input string
+ or replacement or deletion
+ */
 public class OneEditAway {
 
     static boolean isOneEditAway(String s1, String s2){
