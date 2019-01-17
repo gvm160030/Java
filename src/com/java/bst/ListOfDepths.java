@@ -6,14 +6,7 @@ import java.util.LinkedList;
 
 public class ListOfDepths {
     static Node root,left,right;
-    static class ListNode{
-        int data;
-        ListNode next;
-        public ListNode(int data){
-            this.data = data;
-            this.next = null;
-        }
-    }
+
     static class Node {
 
         int data;
